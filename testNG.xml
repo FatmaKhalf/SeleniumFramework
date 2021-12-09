@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="IMaher regression suite">
+	<parameter name="browser" value="firefox"></parameter>
+
+	<test name="regression test">
+		<classes>
+			<class name="tests.ContactUsTest" />
+			<class name="tests.UsrRegistrationTest" />
+			<class name="tests.HoverMenuTest" />
+			<class name="tests.SearchProductTest" />
+			<class name="tests.AddProductToShopingCartTest" />
+			<class name="tests.AddToWishlistTest" />
+			<class name="tests.ChangeCurrancyTest" />
+			<class name="tests.CompareProductsTest" />
+			<class name="tests.EmailFriendTest" />
+			<class name="tests.AddProductReviewTest" />
+			<class name="tests.MyAccountTest" />
+			<class name="tests.RegisteredUserCheckOutTest" />
+			<class name="tests.SearchProductUsingAutoSuggestTest" />
+			<class name="tests.LogOutTest" />
+			<class name="tests.GuestCheckOutTest" />
+
+		</classes>
+	</test>
+</suite> 
