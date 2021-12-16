@@ -18,7 +18,7 @@ public class UsrRegistrationTest extends TestBase {
 		homeObject = new HomePage(driver);
 		homeObject.openRegistrationPage();
 		registertionObject = new UserRegistrationPage(driver);
-		registertionObject.userRegister("fatma", "Khalf", "Fatm11@test.com", "12345678");
+		registertionObject.userRegister("fatma", "Khalf", "Fatm11saber@test.com", "12345678");
 	}
 	
 	@Test(priority = 2)
@@ -32,7 +32,7 @@ public class UsrRegistrationTest extends TestBase {
 	{
 		loginObject = new LoginPage(driver);
 		homeObject.openLoginPage();
-		loginObject.UserLogin("Fatm11@test.com", "12345678");
+		loginObject.UserLogin("Fatm11saber@test.com", "12345678");
 	}
 	
 
